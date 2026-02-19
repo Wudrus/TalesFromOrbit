@@ -1,5 +1,8 @@
 formulas:
   Возраст на момент ДАТА: date(file("ДАТА").properties.toString().slice(9,-2))-note["Дата рождения"]
+properties:
+  formula.Возраст на момент ДАТА:
+    displayName: Возраст в 01.01.3093
 views:
   - type: cards
     name: Список
