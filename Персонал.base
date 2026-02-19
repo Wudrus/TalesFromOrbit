@@ -1,0 +1,12 @@
+formulas:
+  Без названия: ""
+views:
+  - type: table
+    name: Список
+    filters:
+      and:
+        - file.inFolder("characters")
+    order:
+      - file.name
+      - Дата рождения
+      - formula.Без названия
