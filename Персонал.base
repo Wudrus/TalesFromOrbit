@@ -1,6 +1,5 @@
 formulas:
   Возраст на момент ДАТА: date(file("ДАТА").properties.toString().slice(9,-2))-note["Дата рождения"]
-  Без названия: file.toString()
 views:
   - type: cards
     name: Список
@@ -12,7 +11,6 @@ views:
       - file.name
       - Дата рождения
       - formula.Возраст на момент ДАТА
-      - formula.Без названия
   - type: chronos-timeline-view
     name: Шкала
     order:
