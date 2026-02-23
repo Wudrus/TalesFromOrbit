@@ -1,1 +1,1 @@
-[[characters/index|Персонажи]] | 
+[[characters/index|Персонажи]] | [[tales/index|Рассказы]]
